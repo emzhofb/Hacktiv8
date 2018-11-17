@@ -1,0 +1,62 @@
+header {
+    background-color: rgb(77, 13, 13);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 1;
+}
+
+body {
+    background-image: url(img/background.jpg)
+}
+
+nav {
+    float: left;
+}
+
+div {
+    float: right;
+    margin: 0px 10px;
+    padding: 20px 10px;
+    color: white;
+}
+
+ul a {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+ul a:hover {
+    background-color: black;
+}
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.form {
+    position: relative;
+    padding: 70px 20px 0px 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 0;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.picture {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
+
+img {
+    max-width: 1000px;
+    padding: 45px 0px 0px 0px;
+}
