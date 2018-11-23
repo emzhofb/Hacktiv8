@@ -1,9 +1,5 @@
 var tanggal = 23;
-<<<<<<< HEAD
-var bulan = 15;
-=======
 var bulan = 5;
->>>>>>> 2c1fd422b87873b0d8f05ce70184aad291fe0301
 var tahun = 1999;
 
 switch (bulan) {
@@ -56,12 +52,7 @@ if (tanggal <= 0 || tanggal > 31){
 else if (tahun < 1900 || tahun > 2200){
     console.log('inputlah tahun di antara 1900 sampai 2200')
 }
-
 // else 
 else{
     console.log(tanggal + ' ' + bulan + ' ' + tahun)
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 2c1fd422b87873b0d8f05ce70184aad291fe0301
