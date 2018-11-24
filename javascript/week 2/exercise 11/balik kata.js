@@ -1,7 +1,7 @@
 function balikKata(kata) {
     // you can only write your code here!
     var str = '';
-    var str2=''
+    var str2='';
     for (var i = kata.length-1; i >= 0; i--){
       str += kata[i]
     }
