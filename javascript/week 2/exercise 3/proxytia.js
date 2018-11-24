@@ -17,5 +17,5 @@ else if (nama !== '' && peran === 'Penyihir'){
   console.log ('Selamat datang di Dunia Proxytia ' + nama + '\nHalo Penyihir ' + nama + ', ciptakan keajaiban yang membantu kemenanganmu!')
 }
 else {
-  console.log ('Pilih peran yang sesuai')
+  console.log ('Pilih peran yang sesuai diantara Ksatria, Tabib, atau Penyihir')
 }
