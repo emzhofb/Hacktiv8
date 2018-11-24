@@ -47,7 +47,7 @@ for (let index = 1; index <= 100; index += 2) {
     if (index % 3 === 0) {
         console.log(index + ' - Kelipatan 3');
     }    else {
-        console.log(index);
+        console.log('');
     }
 }
 
@@ -55,7 +55,7 @@ for (let index = 1; index <= 100; index += 5) {
     if (index % 6 === 0) {
         console.log(index + ' - Kelipatan 6');
     }    else {
-        console.log(index);
+        console.log('');
     }
 }
 
@@ -63,6 +63,6 @@ for (let index = 1; index <= 100; index += 9) {
     if (index % 10 === 0) {
         console.log(index + ' - Kelipatan 10');
     }    else {
-        console.log(index);
+        console.log('');
     }
 }
