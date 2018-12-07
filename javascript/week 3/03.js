@@ -11,7 +11,7 @@ function dataHandling(receive) {
         console.log ('Nama Lengkap: ' + receive[i][j])
       }
       else if (j == 2) {
-        console.log ('TTL : ' + receive[i][j].concat(' ' + input[i][j, 3]))
+        console.log ('TTL : ' + receive[i][j].concat(' ' + receive[i][j, 3]))
       }
       else if (j == 3) {
         console.log ('Hobi : ' + receive[i][j, 4] + '\n')
