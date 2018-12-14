@@ -6,7 +6,12 @@ function ubahHuruf(kata) {
     for( var j = 0; j < kata.length; j++ ) {
         for( var i = 0; i < alphabet.length; i++ ) {
             if ( kata[j] === alphabet[i] ) {
-                temp += alphabet[i+1]
+                if ( kata[j] === 'z' ) {
+                    temp += alphabet[0]
+                }
+                else {
+                    temp += alphabet[i+1]
+                }
             }
         }
     }

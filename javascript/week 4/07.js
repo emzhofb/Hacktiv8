@@ -1,15 +1,17 @@
 function urutkanAbjad(str) {
     // you can only write your code here!
-    // var alphabet = "abcdefghijklmnopqrstuvwxyz"
+    var alphabet = "abcdefghijklmnopqrstuvwxyz"
     
-    // for( var i = 0; i < alphabet.length; i++ ) {
-    //     for( var j = 0; j < str.length; j++ ) {
-    //         if( alphabet[i] === str[j] ) {
-
-    //         }
-    //     }
-    // }
-    return str.toString().split('').sort().join('')
+    var temp = ''
+    for ( let i = 0; i < alphabet.length; i++ ) {
+        for ( let j = 0; j < str.length; j++ ) {
+            if ( str[j] === alphabet[i] ) {
+                temp += alphabet[i]
+            }
+        }
+    }
+    return temp
+    // return str.toString().split('').sort().join('')
 }
 
 // TEST CASES
